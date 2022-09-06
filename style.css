@@ -226,3 +226,48 @@ footer {
 .footer-text {
   color: #fff;
 }
+
+@media screen and (max-width: 425px) {
+  .header {
+    width: 100%;
+  }
+
+  .social {
+    display: none;
+  }
+  .main-visual-content {
+    width: 100%;
+  }
+  main {
+    width: 100%;
+    display: block;
+  }
+  .nav-list-item {
+    display: block;
+    margin: 0 0 10px 0;
+  }
+  .blog {
+    width: 100%;
+    padding: 0 2%;
+  }
+  .blog-item {
+    padding-bottom: 0;
+  }
+  .blog-image {
+    width: 50%;
+  }
+  .category {
+    display: none;
+  }
+  .sidebar {
+    width: 100%;
+    padding: 30px 3%;
+  }
+  .instagram-box {
+    width: 48%;
+    padding-top: 48%;
+  }
+  .instagram-box:nth-child(odd) {
+    margin-right: 4%;
+  }
+}
